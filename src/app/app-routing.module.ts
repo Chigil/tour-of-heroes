@@ -12,7 +12,6 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'not-found', component: NotFoundComponent },
   { path: '**', redirectTo: 'not-found', pathMatch: 'full' },
-
 ];
 
 @NgModule({
